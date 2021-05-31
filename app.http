@@ -1,0 +1,21 @@
+POST http://localhost:3000/users/
+
+{
+  "username": "kalyan",
+  "name":"bkalyan",
+  "password": "kalyan@123",
+  "gender": "male",
+  "location":"India"
+
+}
+
+###
+POST http://localhost:3000/users/
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+
+###
+GET http://localhost:3000/states
